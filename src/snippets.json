@@ -1,0 +1,15 @@
+{
+  "theme": {
+    "prefix": "theme",
+    "body": [
+      "theme: ${1|Work,Simple,Libre,Huerta,Ostrich,Courier,Titillium,Fira,Merriweather,Next,Olive Green,Plain Jane,Business Class,Zurich,Poster,Franziska,Letters from Sweden,Sketchnote,Scherzkeks|}, ${2|1,2,3,4,5,6,7|}",
+      "$0"
+    ],
+    "description": "Specify the theme name and color (e.g. Scherzkeks,7)"
+  },
+  "build": {
+    "prefix": "build-steps",
+    "body": ["build-steps: ${1|true,false|}", "$0"],
+    "description": "Specify whether lists reveal incrementally."
+  }
+}
